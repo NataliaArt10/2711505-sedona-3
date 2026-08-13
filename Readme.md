@@ -1,8 +1,8 @@
 # Личный проект «Седона»
 
 * Студент: [Наталья Костенко](https://up.htmlacademy.ru/htmlcss-individual/3/user/2711505).
-* Наставник: `[Екатерина Комнатная](https://htmlacademy.ru/profile/id215761)`.
-Мой проект https://nataliaart10.github.io/2711505-sedona-3/
+* Наставник: [Екатерина Комнатная](https://htmlacademy.ru/profile/id215761).
+* Мой проект https://nataliaart10.github.io/2711505-sedona-3/
 
 ---
 
