@@ -1,0 +1,326 @@
+@font-face {
+  font-family: "TP Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format ("woff2");
+  font-display: swap;
+}
+
+font-face {
+  font-family: "TP Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format ("woff2");
+  font-display: swap;
+}
+
+/* Почитать */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  clip: rect (0 0 0 0);
+  overflow: hidden;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  font-weight: 400;
+  color: #000000;
+  background-color: #f2f2f2;
+  text-decoration: none;
+  text-transform: none;
+}
+
+/* Header */
+.navigation-link {
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  text-align: center;
+  color: inherit;
+  background-color: #ffffff;
+  text-decoration: none;
+}
+
+.navigation-link-current {
+  border-bottom: 2px solid #756257;
+}
+
+.fovourites-number {
+  font-size: 10px;
+  line-height: 10px;
+  text-align: center;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(125, 181, 79, 1);
+}
+
+/* Button */
+.button {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: center;
+  vertical-align: middle;
+  color: #ffffff;
+  background-color: #756157;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.button-blue {
+  background-color: #82b3d3;
+}
+
+.button-favourites {
+  background-color: #7db54f;
+}
+
+.button-background {
+  background-color: #82b3d3;
+  /* заменить на фоновое изображение */
+}
+
+.button-big {
+  font-size: 20px;
+  line-height: 36px;
+}
+
+.button-big-subscription {
+  color: #ffffff;
+  background-color: #82b3d3;
+}
+
+/* Main page */
+.title {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+  background-color: #ffffff;
+  text-transform: uppercase;
+}
+
+.title-light {
+  color: #ffffff;
+  background-color: #82b3d3;
+}
+
+.subtitle {
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #333333;
+  background-color: #ffffff;
+}
+
+.subscription-subtitle {
+  color: #ffffff;
+  background-color: #82b3d3;
+}
+
+/* Advantages and services*/
+.advantages-title,
+.services-title {
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-align: center;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.advantages-title-light {
+  color: #ffffff;
+  background-color: #82b3d3;
+}
+
+.advantages-description,
+.services-description {
+  text-align: center;
+  color: #333333;
+}
+
+.advantages-description-light {
+  color: #ffffff;
+  background-color: #82b3d3;
+}
+
+.advantages-item:nth-child(2n) {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-item:nth-child(2n+1) {
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
+.advantages-item-with-image {
+  background-color: #82b3d3;
+}
+
+.services-item:nth-child(2n+1) {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+
+.services-item:nth-child(2n) {
+  background-color: #ffffff;
+}
+
+/* Form */
+.subscription-form input {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: middle;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+/* Contacts */
+.contact-phone {
+  font-size: 40px;
+  line-height: 40px;
+  color: inherit;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* Catalog */
+.catalog-products-title {
+  font-size: 60px;
+  line-height: 78px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #82b3d3;
+}
+
+.breadcrumbs-link {
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+  background-color: #82b3d3;
+}
+
+.catalog-filter-title,
+.price-filter-title {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  background-color: #83b3d3;
+}
+
+.catalog-filter-item {
+  font-size: 18px;
+  line-height: 23px;
+  color: #ffffff;
+  background-color: #83b3d3;
+}
+
+.price-field {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: right;
+  vertical-align: middle;
+  color: #000000;
+  background-color: #ffffff;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.price-input {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.select-control {
+  color: #333333;
+}
+
+/* Hotels */
+.product-title {
+  font-family: "PT Sans", sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  text-align: left;
+  color: #000000;
+  background-color: #ffffff;
+  text-decoration: none;
+  text-transform: none;
+  /* убрать подчеркивание ссылки */
+}
+
+.product-type {
+  text-align: left;
+  color: #333333;
+  background-color: #ffffff;
+}
+
+.product-card-price {
+  text-align: right;
+  color: #333333;
+  background-color: #ffffff;
+}
+
+.product-card-rating {
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #333333;
+  background-color: #ffffff;
+  text-transform: uppercase;
+}
+
+/* Pagination */
+.pagination-link {
+  font-family: "PT Sans", sans-serif;
+  font-size: 20px;
+  line-height: 36px;
+  font-weight: 700;
+  text-align: center;
+  color: #ffffff;
+  background-color: #82b3d3;
+  vertical-align: middle;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.pagination-link-current {
+  color: #000000;
+  background-color: #f2f2f2;
+}
+
+/* Background images */
+.advantages-photo {
+  color: #ffffff;
+  background-color: #82b3d3;
+  background-image: url("../images/welcome-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.subscription {
+  color: #ffffff;
+  background-color: #82b3d3;
+  background-image: url("../images/subscribe-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.catalog-products {
+  color: #ffffff;
+  background-color: #82b3d3;
+  background-image: url("../images/filter-background.jpg");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
