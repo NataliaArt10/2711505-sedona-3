@@ -45,7 +45,6 @@ body {
   font-weight: 700;
   text-align: center;
   color: inherit;
-  background-color: #ffffff;
   text-decoration: none;
 }
 
@@ -73,6 +72,7 @@ body {
   background-color: #756157;
   text-transform: uppercase;
   text-decoration: none;
+  border-radius: 4px;
 }
 
 .button-blue {
@@ -81,11 +81,6 @@ body {
 
 .button-favourites {
   background-color: #7db54f;
-}
-
-.button-background {
-  background-color: #82b3d3;
-  /* заменить на фоновое изображение */
 }
 
 .button-big {
@@ -104,14 +99,11 @@ body {
   line-height: 36px;
   font-weight: 700;
   text-align: center;
-  color: #000000;
-  background-color: #ffffff;
   text-transform: uppercase;
 }
 
 .title-light {
   color: #ffffff;
-  background-color: #82b3d3;
 }
 
 .subtitle {
@@ -119,7 +111,6 @@ body {
   line-height: 26px;
   text-align: center;
   color: #333333;
-  background-color: #ffffff;
 }
 
 .subscription-subtitle {
@@ -140,7 +131,6 @@ body {
 
 .advantages-title-light {
   color: #ffffff;
-  background-color: #82b3d3;
 }
 
 .advantages-description,
@@ -181,7 +171,6 @@ body {
   line-height: 24px;
   text-align: middle;
   color: #000000;
-  background-color: #ffffff;
 }
 
 /* Contacts */
@@ -199,14 +188,12 @@ body {
   line-height: 78px;
   font-weight: 700;
   color: #ffffff;
-  background-color: #82b3d3;
 }
 
 .breadcrumbs-link {
   font-size: 16px;
   line-height: 21px;
   color: #ffffff;
-  background-color: #82b3d3;
 }
 
 .catalog-filter-title,
@@ -215,14 +202,12 @@ body {
   line-height: 24px;
   font-weight: 700;
   color: #ffffff;
-  background-color: #83b3d3;
 }
 
 .catalog-filter-item {
   font-size: 18px;
   line-height: 23px;
   color: #ffffff;
-  background-color: #83b3d3;
 }
 
 .price-field {
@@ -232,7 +217,6 @@ body {
   text-align: right;
   vertical-align: middle;
   color: #000000;
-  background-color: #ffffff;
   text-decoration: none;
   text-transform: none;
 }
@@ -246,29 +230,25 @@ body {
 }
 
 /* Hotels */
-.product-title {
+.product-card-link {
   font-family: "PT Sans", sans-serif;
   font-size: 24px;
   line-height: 28px;
   font-weight: 700;
   text-align: left;
   color: #000000;
-  background-color: #ffffff;
   text-decoration: none;
   text-transform: none;
-  /* убрать подчеркивание ссылки */
 }
 
 .product-type {
   text-align: left;
   color: #333333;
-  background-color: #ffffff;
 }
 
 .product-card-price {
   text-align: right;
   color: #333333;
-  background-color: #ffffff;
 }
 
 .product-card-rating {
@@ -276,7 +256,6 @@ body {
   line-height: 20px;
   text-align: center;
   color: #333333;
-  background-color: #ffffff;
   text-transform: uppercase;
 }
 
