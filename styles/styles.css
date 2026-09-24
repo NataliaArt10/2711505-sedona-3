@@ -285,7 +285,7 @@ body {
 .advantages-title,
 .services-title {
   margin: 0;
-  padding-bottom: 62px;
+  padding-bottom: 30px;
   font-size: 24px;
   line-height: 28px;
   font-weight: 700;
@@ -300,6 +300,7 @@ body {
 .advantages-description,
 .services-description {
   margin: 0;
+  margin-top: 30px;
   color: #333333;
 }
 
@@ -391,6 +392,8 @@ body {
   font-size: 18px;
   line-height: 24px;
   color: #000000;
+  background-color: #f2f2f2;
+  border: none;
 }
 
 .subscription-form {
@@ -541,6 +544,7 @@ body {
   line-height: 24px;
   font-weight: 700;
   color: #000000;
+  background-color: #f2f2f2;
 }
 
 .price-input-title {
@@ -616,6 +620,8 @@ body {
 
 .product-card {
   margin-right: 20px;
+  margin-bottom: 20px;
+  border: solid 1px #E6E6E6;
 }
 
 .product-card:nth-child(3n) {
@@ -633,12 +639,14 @@ body {
 }
 
 .product-card-rating {
+  padding: 9px 22px 8px 23px;
   font-size: 16px;
   line-height: 20px;
   text-align: center;
   color: #333333;
   text-transform: uppercase;
   width: 140px;
+  background-color: #f2f2f2;
 }
 
 /* Pagination */
