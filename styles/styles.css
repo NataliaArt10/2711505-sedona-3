@@ -1416,6 +1416,7 @@ a.breadcrumbs-link:active {
   background-color: #f2f2f2;
   border: none;
   cursor: pointer;
+  -moz-appearance: textfield;
 }
 
 .modal-form-input::-webkit-outer-spin-button,
